@@ -1,0 +1,118 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to bottom,
+    #ffffff,
+    #cffcf1,
+    #cffcf1,
+    #defafe
+  );
+  padding: 20px;
+}
+.heading {
+  font-size: 40px;
+  font-family: roboto;
+  font-weight: bold;
+}
+.both-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.time-enclapsed-bg-con {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;  
+  width: 40vw;
+}
+.round-shape {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 11vw;
+  margin-top: 30px;
+  border-radius: 50%;
+  background-color: white;
+}
+.time-in-min {
+  font-family: roboto;
+  font-weight: bold;
+  font-size: 40px;
+  color: #00d9f5;
+}
+.running {
+  font-family: roboto;
+  font-weight: bold;
+  color: #1e293b;
+}
+.pause-start-con {
+  display: flex;
+  flex-direction: column;
+}
+.start-button {
+  background-color: transparent;
+  border-width: 0px;
+}
+.start-pause-card {
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+.start-img {
+  width: 30px;
+  align-self: center;
+}
+.start-name {
+  font-family: roboto;
+  font-weight: bold;
+  color: #1e293b;
+  padding-left: 5px;
+  font-size: 20px;
+}
+.start-button {
+  display: flex;
+  flex-direction: row;
+  margin-right: 10px;
+}
+.des {
+  font-family: roboto;
+  font-weight: bold;
+  color: #1e293b;
+  text-align: center;
+}
+.increase-dec-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  background-color: transparent;
+  border-width: 0px;
+  font-size: 30px;
+  font-family: roboto;
+  color: #0f172a;
+}
+.num {
+  font-size: 25px;
+  font-family: roboto;
+  color: #0f172a;
+  background-color: #00d9f5;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
